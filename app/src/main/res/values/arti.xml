@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string-array name="AlfatihahArti">
         <item>	Dengan menyebut nama Allah Yang Maha Pemurah lagi Maha Penyayang.	</item>
         <item>	Segala puji bagi Allah, Tuhan semesta alam.	</item>
@@ -816,7 +815,7 @@
     <string-array name="AlanamArti">
 
     </string-array>
-    
+
     <string-array name="AlwaqiaArti">
 
         <item>	Apabila terjadi hari kiamat,	</item>

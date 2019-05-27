@@ -31,6 +31,7 @@ public class ListSurahActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filter);
+        setTitle("Quran Digital");
 
         // Data Array yang akan ditampilkan di list
         String[] surah= getResources().getStringArray(R.array.surah);

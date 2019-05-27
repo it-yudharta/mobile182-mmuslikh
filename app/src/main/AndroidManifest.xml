@@ -66,7 +66,8 @@
         <activity android:name=".AlQuran"
             android:screenOrientation="portrait"/>
        <activity android:name=".ListSurahActivity"
-           android:screenOrientation="portrait"/>
+           android:screenOrientation="portrait"
+           android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

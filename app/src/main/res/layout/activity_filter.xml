@@ -2,14 +2,16 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    tools:context=".ListSurahActivity">
 
     <!-- Editext for Search -->
     <EditText android:id="@+id/inputSearch"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="Cari Surah.."
+        android:hint="Cari Nomor , Nama Atau Arti Surah.."
         />
 
     <!-- List View -->
