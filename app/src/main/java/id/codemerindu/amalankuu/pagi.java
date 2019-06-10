@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
@@ -60,7 +61,9 @@ public class pagi extends AppCompatActivity implements View.OnClickListener {
         tvArti.setText(arti[1]);
         tvKet.setText(ket[1]);
         prev.setEnabled(false);
-
+        TextView font1 = (TextView) findViewById(R.id.arab);
+        Typeface customfont = Typeface.createFromAsset(getAssets(),"me_quran.ttf");
+        font1.setTypeface(customfont);
 
     }
 

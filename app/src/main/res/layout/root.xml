@@ -70,13 +70,13 @@
                 android:background="@color/putih">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/tanngal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
-                    android:text="Waktu Sholat"
+                    android:text="  "
                     android:textAlignment="center"
                     android:textStyle="bold" />
 
@@ -84,7 +84,7 @@
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="2dp"
@@ -94,13 +94,13 @@
                     app:layout_constraintBottom_toTopOf="@+id/textView15"
                     app:layout_constraintEnd_toStartOf="@+id/textView14"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/tanngal" />
 
                 <TextView
                     android:id="@+id/textView15"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
@@ -116,7 +116,7 @@
                     android:id="@+id/textView16"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="5dp"
@@ -132,7 +132,7 @@
                     android:id="@+id/textView17"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="5dp"
@@ -148,7 +148,7 @@
                     android:id="@+id/textView18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="5dp"
@@ -164,7 +164,7 @@
                     android:id="@+id/textView19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="5dp"
@@ -180,7 +180,7 @@
                     android:id="@+id/textView20"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentStart="true"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="5dp"
@@ -196,7 +196,7 @@
                     android:id="@+id/textView14"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="5dp"
@@ -206,13 +206,13 @@
                     app:layout_constraintBottom_toTopOf="@+id/textView16"
                     app:layout_constraintEnd_toStartOf="@+id/textView10"
                     app:layout_constraintStart_toEndOf="@+id/textView9"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/tanngal" />
 
                 <TextView
                     android:id="@+id/textView10"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="2dp"
@@ -223,13 +223,13 @@
                     app:layout_constraintBottom_toTopOf="@+id/textView17"
                     app:layout_constraintEnd_toStartOf="@+id/textView11"
                     app:layout_constraintStart_toEndOf="@+id/textView14"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/tanngal" />
 
                 <TextView
                     android:id="@+id/textView11"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="5dp"
@@ -239,13 +239,13 @@
                     app:layout_constraintBottom_toTopOf="@+id/textView18"
                     app:layout_constraintEnd_toStartOf="@+id/textView12"
                     app:layout_constraintStart_toEndOf="@+id/textView10"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/tanngal" />
 
                 <TextView
                     android:id="@+id/textView12"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="5dp"
@@ -255,13 +255,13 @@
                     app:layout_constraintBottom_toTopOf="@+id/textView19"
                     app:layout_constraintEnd_toStartOf="@+id/textView13"
                     app:layout_constraintStart_toEndOf="@+id/textView11"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/tanngal" />
 
                 <TextView
                     android:id="@+id/textView13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/textView8"
+                    android:layout_below="@+id/tanngal"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="8dp"
@@ -271,7 +271,7 @@
                     app:layout_constraintBottom_toTopOf="@+id/textView20"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/textView12"
-                    app:layout_constraintTop_toBottomOf="@+id/textView8" />
+                    app:layout_constraintTop_toBottomOf="@+id/tanngal" />
             </android.support.constraint.ConstraintLayout>
 
             <RelativeLayout

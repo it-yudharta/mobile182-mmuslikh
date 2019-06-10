@@ -1,6 +1,7 @@
 package id.codemerindu.amalankuu;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Build;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
@@ -30,7 +31,9 @@ public class sore extends AppCompatActivity implements View.OnClickListener {
 
         sCount = (TextView) findViewById(R.id.sCount);
 
-
+        TextView font1 = (TextView) findViewById(R.id.arab);
+        Typeface customfont = Typeface.createFromAsset(getAssets(),"me_quran.ttf");
+        font1.setTypeface(customfont);
 
         String[] sore = getResources().getStringArray(R.array.sore);
         String[] ket = getResources().getStringArray(R.array.ketp);

@@ -167,7 +167,7 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="18dp"
             android:layout_marginTop="13dp"
-            android:text="TextView"
+            android:text=" "
             android:textSize="18sp"
             android:textStyle="bold" />
 
