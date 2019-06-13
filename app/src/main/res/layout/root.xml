@@ -334,6 +334,7 @@
                     android:layout_marginEnd="7dp"
                     android:layout_marginBottom="5dp"
                     android:background="@color/putih"
+                    android:textIsSelectable="true"
                     android:text='" Nikmat Tuhan Mana Lagi Yang Kamu Dustakan " \n ( Ar-Rahman )'
                     android:textAlignment="viewStart" />
 
@@ -374,6 +375,7 @@
                     android:layout_marginTop="2dp"
                     android:layout_marginEnd="7dp"
                     android:background="@color/putih"
+                    android:textIsSelectable="true"
                     android:text="Dari Anas ra. dari Nabi SAW. dalam sesuatu yang diriwayatkan dari Tuhannaya 'Azzawajalla, Firmannya : \n\n Jika seseorang hamba mendekat pada Ku sejengkal, Maka Aku mendekat padanya sehasta dan jika ia mendekat pada-Ku sehasta maka Aku mendekat padanya satu depa. jika Hambaku Mendatangi Aku dengan Berjalan Maka Aku mendatanginya dengan berlari. \n( HR al-Bukhari )"
                     android:textAlignment="viewStart" />
 

@@ -27,6 +27,7 @@
 
                 <TextView
                     android:id="@+id/arab"
+                    android:textIsSelectable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
@@ -40,6 +41,7 @@
 
                 <TextView
                     android:id="@+id/Tarti"
+                    android:textIsSelectable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/arab"
@@ -55,6 +57,7 @@
 
                 <TextView
                     android:id="@+id/arti"
+                    android:textIsSelectable="true"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/Tarti"

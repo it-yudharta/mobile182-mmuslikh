@@ -46,6 +46,9 @@ public class adapter_quran extends ArrayAdapter<String> {
         tvarab.setText(tarab[position]);
         tvarti.setText(tarti[position]);
 
+
+
+
         return rowView;
     }
 }

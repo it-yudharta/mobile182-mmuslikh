@@ -18,14 +18,16 @@
         <TextView
             android:id="@+id/corpus_word_arabic_textView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true">
 
         </TextView>
 
         <TextView
             android:id="@+id/corpus_word_trans_textView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:textIsSelectable="true">
 
         </TextView>
     </LinearLayout>
@@ -56,7 +58,8 @@
                 android:id="@+id/arabic1TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="@dimen/fontSizeArabic" />
+                android:textSize="@dimen/fontSizeArabic"
+                android:textIsSelectable="true" />
 
             <TextView
                 android:id="@+id/arabic1TypeTextView"

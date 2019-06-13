@@ -52,6 +52,9 @@
        <activity android:name=".ListSurahActivity"
            android:screenOrientation="portrait"
            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".jsholat"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

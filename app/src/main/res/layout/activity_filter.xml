@@ -13,11 +13,13 @@
         android:id="@+id/inputSearch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Cari Nomor , Nama Atau Arti Surah.." />
+        android:hint="Cari Nomor , Nama Atau Arti Surah.."
+        android:textIsSelectable="true" />
 
     <!-- List View -->
     <ListView
 
+        android:textIsSelectable="true"
         android:id="@+id/list_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />

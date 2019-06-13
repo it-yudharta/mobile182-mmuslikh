@@ -67,7 +67,8 @@ public class Root extends Fragment{
                 getActivity().startActivity(Qintent);
                 break;
             case R.id.jsholat:
-                Toast.makeText(getActivity(),"Coming Soon",Toast.LENGTH_SHORT).show();
+                Intent Jintent = new Intent(getActivity(),jsholat.class);
+                getActivity().startActivity(Jintent);
                 break;
             case R.id.lainnya:
                     Toast.makeText(getActivity(),"Coming Soon",Toast.LENGTH_SHORT).show();

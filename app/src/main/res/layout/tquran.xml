@@ -22,9 +22,11 @@
         android:paddingRight="10dp"
         android:paddingBottom="3dip"
         android:textColor="@color/textColorPrimary"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:textIsSelectable="true"/>
 
     <TextView
+        android:textIsSelectable="true"
         android:id="@+id/arti"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

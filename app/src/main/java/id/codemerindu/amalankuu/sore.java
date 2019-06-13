@@ -7,6 +7,7 @@ import android.os.VibrationEffect;
 import android.os.Vibrator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatDelegate;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
@@ -134,13 +135,21 @@ public class sore extends AppCompatActivity implements View.OnClickListener {
     }
 
     @Override
-    public boolean onOptionsItemSelected (MenuItem item)
+    public boolean onOptionsItemSelected(MenuItem item)
     {
-//        if (item.getItemId() == R.id.setFont) {
-//            Intent intent = new Intent(this, setFont.class);
-//            startActivity(intent);
-//
-//        }
-        return onOptionsItemSelected(item);
+        if (item.getItemId() == R.id.night)
+        {
+            int mode = AppCompatDelegate.getDefaultNightMode();
+            if(mode == AppCompatDelegate.MODE_NIGHT_YES)
+            {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+            }else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+            }
+            startActivity(new Intent(sore.this, sore.class));
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
+
     }
 }
