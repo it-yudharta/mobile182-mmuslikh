@@ -6,6 +6,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatDelegate;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.Menu;
@@ -88,14 +89,22 @@ public class ListSurahActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected (MenuItem item)
+    public boolean onOptionsItemSelected(MenuItem item)
     {
-//        if (item.getItemId() == R.id.setFont) {
-//            Intent intent = new Intent(this, setFont.class);
-//            startActivity(intent);
-//
-//        }
-        return onOptionsItemSelected(item);
+        if (item.getItemId() == R.id.night)
+        {
+            int mode = AppCompatDelegate.getDefaultNightMode();
+            if(mode == AppCompatDelegate.MODE_NIGHT_YES)
+            {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES);
+            }else {
+                AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);
+            }
+            startActivity(new Intent(ListSurahActivity.this, ListSurahActivity.class));
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
+
     }
 
 }
